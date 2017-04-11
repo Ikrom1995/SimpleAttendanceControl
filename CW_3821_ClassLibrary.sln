@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW_3821_ClassLibrary", "CW_3821_ClassLibrary\CW_3821_ClassLibrary.csproj", "{59F9A8B7-867E-4C28-B8D5-BED7684F8A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyManagement", "StudyManagement\StudyManagement.csproj", "{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F9A8B7-867E-4C28-B8D5-BED7684F8A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F9A8B7-867E-4C28-B8D5-BED7684F8A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F9A8B7-867E-4C28-B8D5-BED7684F8A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F9A8B7-867E-4C28-B8D5-BED7684F8A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

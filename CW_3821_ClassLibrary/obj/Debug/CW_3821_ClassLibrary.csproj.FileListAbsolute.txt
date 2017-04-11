@@ -1,0 +1,5 @@
+C:\myFolder\WIUT\SAD\Sem2\CW_1\CW_3821_ClassLibrary\CW_3821_ClassLibrary\bin\Debug\CW_3821_ClassLibrary.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_1\CW_3821_ClassLibrary\CW_3821_ClassLibrary\bin\Debug\CW_3821_ClassLibrary.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_1\CW_3821_ClassLibrary\CW_3821_ClassLibrary\obj\Debug\CW_3821_ClassLibrary.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_1\CW_3821_ClassLibrary\CW_3821_ClassLibrary\obj\Debug\CW_3821_ClassLibrary.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_1\CW_3821_ClassLibrary\CW_3821_ClassLibrary\obj\Debug\CW_3821_ClassLibrary.csprojResolveAssemblyReference.cache

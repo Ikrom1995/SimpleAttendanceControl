@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2DB8FDE-FE8A-4B11-995F-205A71E378E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StudyManagement</RootNamespace>
+    <AssemblyName>StudyManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllAccessSwipes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllAccessSwipes.Designer.cs">
+      <DependentUpon>AllAccessSwipes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllAttendanceSwipes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllAttendanceSwipes.Designer.cs">
+      <DependentUpon>AllAttendanceSwipes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllClasses.Designer.cs">
+      <DependentUpon>AllClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllStudents.Designer.cs">
+      <DependentUpon>AllStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllSwipes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSwipes.Designer.cs">
+      <DependentUpon>AllSwipes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllTeachers.Designer.cs">
+      <DependentUpon>AllTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllUsers.Designer.cs">
+      <DependentUpon>AllUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAttendance.Designer.cs">
+      <DependentUpon>NewAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewClass.Designer.cs">
+      <DependentUpon>NewClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStudent.Designer.cs">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSwipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSwipe.Designer.cs">
+      <DependentUpon>NewSwipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTeacher.Designer.cs">
+      <DependentUpon>NewTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentForm.Designer.cs">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AllAccessSwipes.resx">
+      <DependentUpon>AllAccessSwipes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllAttendanceSwipes.resx">
+      <DependentUpon>AllAttendanceSwipes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllClasses.resx">
+      <DependentUpon>AllClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllStudents.resx">
+      <DependentUpon>AllStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllSwipes.resx">
+      <DependentUpon>AllSwipes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllTeachers.resx">
+      <DependentUpon>AllTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllUsers.resx">
+      <DependentUpon>AllUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAttendance.resx">
+      <DependentUpon>NewAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClass.resx">
+      <DependentUpon>NewClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudent.resx">
+      <DependentUpon>NewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSwipe.resx">
+      <DependentUpon>NewSwipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTeacher.resx">
+      <DependentUpon>NewTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentForm.resx">
+      <DependentUpon>ParentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.AccessControl.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.AttandanceControl.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.AttendStatus.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.Classes.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.Controlling.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.Student.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.Teacher.datasource" />
+    <None Include="Properties\DataSources\CW_3821_ClassLibrary.Users.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CW_3821_ClassLibrary\CW_3821_ClassLibrary.csproj">
+      <Project>{59f9a8b7-867e-4c28-b8d5-bed7684f8a12}</Project>
+      <Name>CW_3821_ClassLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
